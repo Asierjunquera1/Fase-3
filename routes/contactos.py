@@ -7,9 +7,9 @@ contactos= Blueprint("contactos", __name__)
 def home():
     return render_template("index.html")
 
-@contactos.route("/guardar_contacto")
+@contactos.route("/formulario")
 def add_contact():
-    return "Guardando contacto"
+    return render_template("formulario.html")
 
 
 

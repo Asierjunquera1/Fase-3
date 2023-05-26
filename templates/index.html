@@ -1,2 +1,21 @@
-<h1>MetroGo</h1>
-<p>Bienvenido a MetroGo, tu aplicacion sobre el metro de Londres</p>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Contacto</title>
+</head>
+<body>
+    <h1>Formulario de Contacto</h1>
+    <form action="/enviar" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" required><br><br>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

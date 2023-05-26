@@ -1,4 +1,4 @@
-# Fase-3
+# Fase 3
 ## Usuarios:
 Martina, Alejandro, Frank y Asier
 

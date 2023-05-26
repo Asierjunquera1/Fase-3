@@ -17,6 +17,20 @@ def index():
 def enviado():
     return render_template("formulario_enviado.html")
 
+@contactos.route("/about")
+def about():
+    return render_template("about.html")
+
+@contactos.route("/preguntas_frecuentes")
+def preguntas_frecuentes():
+    return render_template("preguntas_frecuentes.html")
+
+contactos.route("/servicios")
+def servicios():
+    return render_template("servicios.html")
+
+
+
 
 
 

@@ -1,6 +1,6 @@
 # Fase 3
 ## Usuarios:
-Martina, Alejandro, Frank y Asier
+Martina, Alejandro, Frank y Asier.
 
 ## Link del repositorio:
 [Github: https://github.com/Asierjunquera1/Fase-3.git]
